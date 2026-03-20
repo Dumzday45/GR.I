@@ -23,6 +23,25 @@ div a{
     color: white;
 }
 
+@media (max-width: 768px){
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .intro{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .vision, .mission{
+        width: 100%;
+    }
+}
 nav{
     display: flex;
     justify-content: space-between;

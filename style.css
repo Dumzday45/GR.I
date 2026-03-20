@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/green.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.pri-btn{
+     display: inline-block;
+    text-decoration: none;
+}
+
+span{
+    color: oklch(72.533% 0.15842 162.017);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: black;
+}
+
+nav a{
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero{
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+}
+
+.hero p{
+    margin: 20px 0;
+}
+
+.btn{
+    padding: 10px 20px;
+    background: oklch(72.533% 0.15842 162.017);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+@keyframes slideleft{
+    from{
+        opacity: 0;
+        transform: translatex(-60px);
+    }
+    to{
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+
+
+.features{
+    animation: slideleft 5s ease;
+}
+
+.card{
+    background: oklch(72.533% 0.15842 162.017);
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.cta{
+    text-align: center;
+}
+
+.cta h2{
+    text-align: center;
+    padding: 50px;
+    margin: 20px 0;
+}
+
+.get{
+     padding: 10px 10px;
+    background: oklch(72.533% 0.15842 162.017);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
